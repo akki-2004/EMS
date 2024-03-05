@@ -1,0 +1,48 @@
+
+.ejb{
+    padding: 2%;
+}
+.navbar-brand{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #ED7D31;
+}
+.wkjfhb{
+    font-size: 20px;
+    font-weight:500;
+}
+
+
+/* Navbar.css or your custom CSS file */
+/* Navbar.css or your custom CSS file */
+.navbar-nav .nav-link {
+    position: relative;
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s; /* Add a color transition for smooth effect */
+  }
+  
+  .navbar-nav .nav-link:hover {
+    text-decoration: none;
+    color: #ED7D31; /* Change the color on hover */
+  }
+  
+  .navbar-nav .nav-link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: -2px; /* Adjust the value to control the thickness of the underline */
+    left: 0;
+    width: 100%;
+    height: 2px; /* Adjust the value to control the height of the underline */
+    background-color: #ED7D31; /* Set the color of the underline */
+    transform: scaleX(0); /* Initial state of the underline, invisible */
+    transform-origin: 100% 50%; /* Make the underline appear from the right */
+    transition: transform 0.3s ease-in-out; /* Add a transition for smooth effect */
+  }
+  
+  .navbar-nav .nav-link:hover::after {
+    transform: scaleX(1); /* Make the underline appear on hover */
+  }
+  

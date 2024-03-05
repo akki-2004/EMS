@@ -1,0 +1,31 @@
+
+.fir_buttons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.fir_options {
+    background-color:#F3EEEA;
+    font-family:Roboto ;
+    font-size: 30px;    
+    padding:10px 15px;
+    cursor:pointer;
+    border-radius: 5px;
+    border: none;
+}
+.fir_options:hover{
+    background-color: #FFBB5C;
+    box-shadow:2px 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius:5px ;
+}
+.fir_options:active{
+    background-color: #F3EEEA;
+    box-shadow: 2px 2px 5px rgba(230, 225, 225, 0.2);
+}
+.sfwe{
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5% ;
+}

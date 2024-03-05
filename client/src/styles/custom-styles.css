@@ -1,0 +1,29 @@
+/* custom-styles.css */
+.custom-container {
+    display: grid;
+    place-items: center;
+    
+  }
+  
+  .custom-form {
+    width: 50%;
+    max-width: 400px; /* Adjust max-width as needed */
+  }
+  
+  .custom-input {
+    width: 100%;
+  }
+  /* custom-styles.css */
+
+/* Change the background color of the Web3Button */
+.custom-container .custom-form .web3-button-custom  {
+    background-color: #ED7D31; /* Replace with your desired color code */
+    color: #fff; /* Set text color to white or a contrasting color */
+    /* Add additional styles as needed */
+  }
+  .read-fir-button {
+ 
+    background-color: #ED7D31; /* Replace with your desired color code */
+    color: #fff; /
+  }
+  

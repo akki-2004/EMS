@@ -1,0 +1,44 @@
+
+
+
+
+.feqhkb{
+  height:80vh;
+
+}
+.img-text{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+.hi{
+  text-align: center;
+  margin-bottom: 5%;
+  color:   #ED7D31;
+  font-weight:bolder;
+}
+
+.fjeb{
+  font-weight: bolder;
+  margin-bottom: 5%;
+}
+.custom-button {
+  background-color: #ED7D31; /* Your desired background color */
+  color: white; /* Your desired text color */
+  /* Add any other styles you need */
+  margin-top: 5%;
+  border: none;
+}
+
+.custom-button:hover {
+  background-color: #ED7D31; /* Change this to your desired hover color */
+  /* Add any other styles for hover state */
+  font-size: larger;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.ejkfb{
+  position: relative;
+  top:18%;
+}

@@ -1,4 +1,6 @@
 import React from 'react';
+import image11 from "../images/aks13.jpg";
+import image12 from "../images/WhatsApp Image 2024-03-06 at 04.12.06_95939458.jpg";
 
 const AboutUs = () => {
   return (
@@ -12,9 +14,12 @@ const AboutUs = () => {
 
       <div style={{ display: 'flex', justifyContent: 'space-around', flexWrap: 'wrap' }}>
         <div style={{ width: '30%', margin: '20px', textAlign: 'center' }}>
-          <img src="person1.jpg" alt="Person 1" style={{ width: '80%', borderRadius: '50%', marginBottom: '10px' }} />
-          <h2>Akshay Satya</h2>
+          <img src={image11} alt="Person 1" style={{ alignContent:"center", width: '50%', borderRadius: '40%' }} />
+          <div style={{ textAlign: 'center'}}>
+          <h2 >Akshay Satya</h2>
           <p>Role: Front End part</p>
+          </div>
+          
           
         </div>
         <div style={{ width: '30%', margin: '20px', textAlign: 'center' }}>
@@ -45,7 +50,7 @@ const AboutUs = () => {
           
         </div>
         <div style={{ width: '30%', margin: '20px', textAlign: 'center' }}>
-          <img src="person6.jpg" alt="Person 6" style={{ width: '80%', borderRadius: '50%', marginBottom: '10px' }} />
+          <img src={image12} alt="Person 6" style={{ width: '30%', borderRadius: '40%', marginBottom: '10px' }} />
           <h2>Mohammad Mushraf </h2>
           <p>Role: Mongo DB Connection</p>
           

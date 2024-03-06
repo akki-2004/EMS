@@ -49,7 +49,7 @@ export default function Navbar() {
             <Nav.Link style={styles.wkjfhb} as={Link} to="/evlog" onClick={handleToggleNav}>Evidence</Nav.Link>
             <Nav.Link style={styles.wkjfhb} as={Link} to="/lawyer" onClick={handleToggleNav}>Hire a Lawyer</Nav.Link>
             <Nav.Link style={styles.wkjfhb} as={Link} to="/trans" onClick={handleToggleNav}>History</Nav.Link>
-            <Nav.Link style={styles.wkjfhb} as={Link} to="/about" onClick={handleToggleNav}>About Us</Nav.Link>
+            {/* <Nav.Link style={styles.wkjfhb} as={Link} to="/about" onClick={handleToggleNav}>About Us</Nav.Link> */}
 
 
             {/* <Nav.Link style={styles.wkjfhb} as={Link} to="/lawyer" onClick={handleToggleNav}>Case Details</Nav.Link> */}

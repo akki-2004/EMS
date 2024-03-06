@@ -74,15 +74,15 @@ export default function Evidencelog() {
 
         {/* FIR Subject dropdown */}
         <Form.Group controlId="subject">
-          <Form.Label style={{ color: 'black', fontSize: '20px', fontWeight: 'bolder' }}>
-            FIR Subject:
+          <Form.Label style={{ color: 'black'}}>
+            You Are:
           </Form.Label>
           <Form.Control
             as="select"
             name="subject"
             value={formData.subject}
             onChange={handleChange}
-            style={{ border: '2px solid #ED7D31' }}
+           
           >
             <option value="">Select Subject</option>
             {FIRSubjects.map((subject) => (

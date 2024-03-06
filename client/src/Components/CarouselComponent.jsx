@@ -24,7 +24,7 @@ const CarouselComponent = () => {
         />
         <Carousel.Caption>
           <h3 style={{color:"black"}}>File an FIR?</h3>
-          <p>Text for Image 1</p>
+          
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -37,7 +37,7 @@ const CarouselComponent = () => {
         />
         <Carousel.Caption>
           <h3 style={{color:"black"}}>A Best place to store Evidence!</h3>
-          <p>Text for Image 2</p>
+         
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -50,7 +50,7 @@ const CarouselComponent = () => {
         />
         <Carousel.Caption>
           <h3 style={{color:"black"}}>Want to hire a Lawyer?</h3>
-          <p>Text for Image 3</p>
+         
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -33,6 +33,28 @@ mongoose.connect('mongodb+srv://Musharaf:Musharaf@ems.yzofrjh.mongodb.net/employ
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
+app.get('/lawyers/:address', async (req, res) => {
+  const addressArray = req.params.address;
+  const address = addressArray; // Extract the first address from the array
+
+  try {
+    // Find lawyer by address in the database
+    const lawyer = await LawyercheckModel.findOne({ Address:address });
+
+    if (!lawyer) {
+      // If lawyer not found, respond with 404 Not Found
+      console.log(`Lawyer not found for address: ${address}`);
+      return res.status(404).json({ error: 'Lawyer not found' });
+    }
+
+    // If lawyer found, respond with lawyer details
+    res.json(lawyer);
+  } catch (err) {
+    // If an error occurs, log the error and respond with 500 Internal Server Error
+    console.error('Error fetching lawyer details:', err);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
+});
 
 
 
